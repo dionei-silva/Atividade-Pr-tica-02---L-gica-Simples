@@ -2,3 +2,7 @@
 Mostre no html usando o document.write() o dado contido na
 variável junto da frase "Minha idade é x anos", sendo "x" o valor
 armazenado na sua variável. */
+
+let idade = Number(prompt("Insira sua idade: "));
+document.write(`Sua idade é ${idade} anos
+`);
